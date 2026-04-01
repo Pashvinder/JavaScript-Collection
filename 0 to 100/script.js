@@ -13,7 +13,7 @@ function isPrime(num) {
 
 let main = document.getElementById("main");
 
-for (let i = 0; i <= 101; i++) {
+for (let i = 0; i <= 100; i++) {
 
     let box = document.createElement("div");
     box.classList.add("box");
@@ -31,3 +31,4 @@ for (let i = 0; i <= 101; i++) {
 
     main.appendChild(box);
 }
+

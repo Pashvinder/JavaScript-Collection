@@ -1,17 +1,21 @@
-.main {
-    display: grid;
-    grid-template-columns: repeat(6, 80px);
-    gap: 5px;
+.main{
+    
 }
-
 .box {
     height: 80px;
     width: 80px;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
     font-size: 20px;
     color: white;
+    margin: 5px;
+    border-radius: 10px;
+    transition: all 0.1s ease-in-out;
+}
+.box:hover{
+    opacity: 90%;
 }
 
 .even {
