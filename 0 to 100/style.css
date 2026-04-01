@@ -1,6 +1,4 @@
-.main{
-    
-}
+
 .box {
     height: 80px;
     width: 80px;
@@ -12,10 +10,11 @@
     color: white;
     margin: 5px;
     border-radius: 10px;
-    transition: all 0.1s ease-in-out;
+    transition: all 0.00001s ease-in-out;
+    display: inline-block;
 }
 .box:hover{
-    opacity: 90%;
+    opacity: 80%;
 }
 
 .even {
