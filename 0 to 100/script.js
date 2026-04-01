@@ -17,18 +17,35 @@ for (let i = 0; i <= 100; i++) {
 
     let box = document.createElement("div");
     box.classList.add("box");
+   
     box.textContent = i;
 
+    box.style.height = "80px";
+    box.style.width = "80px";
+    main.style.display = "flex";
+    main.style.flexWrap = "wrap";
+    main.style.gap = "5px";  
+    box.style.justifyContent = "center";
+    box.style.alignItems = "center";
+    box.style.fontSize = "20px";
+    box.style.color = "white";
+    box.style.borderRadius = "8px"; 
+    box.style.margin="5px"
+    
+
     if (isPrime(i)) {
-        box.classList.add("prime");
+        box.style.backgroundColor = "red";
     }
     else if (i % 2 === 0) {
-        box.classList.add("even");
+        box.style.backgroundColor = "green";
     }
     else {
-        box.classList.add("odd");
+        box.style.backgroundColor = "yellow";
+        box.style.color = "black";
     }
 
     main.appendChild(box);
 }
+
+
 
