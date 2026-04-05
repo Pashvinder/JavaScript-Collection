@@ -7,4 +7,4 @@ function change(){
 }
 
 change();
-setInterval(change,2000)
+setInterval(change,1200)
