@@ -1,5 +1,5 @@
 let head=document.getElementById("head");
-let texts=["Pashvinder","Student","Son"];
+let texts=["Pashvinder","Student","Preet"];
 function change(){
     let num=Math.floor(Math.random()*texts.length);
     head.innerHTML="I am a "+ texts[num] ;
@@ -7,4 +7,4 @@ function change(){
 }
 
 change();
-setInterval(change,1000)
+setInterval(change,3000)
