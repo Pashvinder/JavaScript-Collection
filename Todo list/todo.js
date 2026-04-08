@@ -44,6 +44,7 @@ cancel.style.borderRadius="90px";
 
 cancel.onclick = function () {
     div.style.backgroundColor = "#cc1121"; 
+    div.style.border="1px"
 };
 
 let btn = document.createElement("button");
@@ -52,7 +53,7 @@ btn.style.backgroundColor = "#0000005e";
 btn.style.color = "black";
 btn.style.border = "none";
 btn.style.padding = "5px 10px";
-btn.style.borderRadius = "5px";
+btn.style.borderRadius = "90px";
 
 
 let buttondiv = document.createElement("div");
