@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Song Player </title>
+    <style>
+        body{
+            background-color: rgb(86, 161, 223);
+        }
+        button{
+            margin-top: 500px;
+            margin-left: 150px;
+            border: none;
+            background-color: rgb(55, 147, 223);
+            color: rgb(0, 54, 99);
+            width: 150px;
+            height: 150px;
+            border-radius: 30px;
+            font-size: 50px;
+            transition: transform 0.3s ease-in-out;
+        }
+        button:hover{
+
+            transform:scale(1.1);
+            background-color: rgb(43, 138, 216);
+        }
+    </style>
+
 </head>
 <body>
+    <button id="play">Play </button>
+    <audio src="PAIGAAM - Armaan Gill.mp3" id="paigaam"  ></audio>
     <script src="player.js"></script>
 </body>
 </html>
