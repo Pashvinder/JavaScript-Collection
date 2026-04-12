@@ -5,6 +5,6 @@ function TogglePlay(){
         song.play();
     }
     else{
-        song.paused();
+        song.pause();
     }
 }
