@@ -1,5 +1,4 @@
 let song = document.getElementById("audio");
-
 let songs = [
     "songs/BAADSHAHI.mp3",
     "songs/DASS KUDIYE.mp3",
@@ -27,3 +26,4 @@ function PlayRandom() {
     song.src = songs[randomIndex];
     song.play();
 }
+
