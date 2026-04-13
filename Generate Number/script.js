@@ -1,4 +1,5 @@
-
+let generatebtn=document.getElementById("generate")
+generatebtn.addEventListener("dblclick",generateNumber)
 function isPrime(num) {
     if (num < 2) return false;
 
@@ -19,10 +20,10 @@ main.innerHTML="";
 for (let i = 0; i <= inputNumber; i++) {
 
     let box = document.createElement("div");
-    box.classList.add("box");   
     box.textContent = i;
     box.style.height = "80px";
     box.style.width = "80px";
+    box.style.display="flex";
     main.style.display = "flex";
     main.style.flexWrap = "wrap";
     main.style.gap = "5px";  
@@ -30,7 +31,7 @@ for (let i = 0; i <= inputNumber; i++) {
     box.style.alignItems = "center";
     box.style.fontSize = "20px";
     box.style.color = "white";
-    box.style.borderRadius = "8px"; 
+    box.style.borderRadius = "2px"; 
     box.style.margin="5px"
     
 
@@ -47,6 +48,7 @@ for (let i = 0; i <= inputNumber; i++) {
 
     main.appendChild(box);
 }
+
 }
 
 
